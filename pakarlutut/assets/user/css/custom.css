@@ -1,0 +1,195 @@
+
+@font-face{
+  font-family: "Poppins";
+  src: url(../vendor/font/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(90deg, #0d47a1 , #90caf9);
+}
+
+/* =========== BAGIAN NAVBAR ============ */
+
+.navbar{
+  width: 100vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.navbar:hover{
+  background-color:#063883 ;
+}
+.navbar .navbar-nav .active{
+  border-bottom: 2px solid red;
+}
+.navbar .navbar-brand{
+  color: white;
+  -webkit-transition: all 0.01s ease-out;
+  -moz-transition: all 0.01s ease-out;
+  -o-transition: all 0.01s ease-out;
+  transition: all 0.01s ease-out;
+}
+.navbar .navbar-brand:hover{
+  font-size: 1.5vw;
+  font-weight: 900;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  font-weight: 900;
+  margin-left: 2.5vw;
+  color: white;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  color: black;
+  background-color: white;
+}
+.navbar .navbar-toggler{
+  background: white;
+}
+
+/* ============= BAGIAN HEADER ============ */
+.bungkus-header{
+  height: 87vh;
+  width: 100%;
+}
+.bungkus-header .kiri img{
+  margin-left:15vw;
+  margin-top: 20vh;
+  width:25vw; 
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:transform .8s ease-in-out;
+}
+.bungkus-header .kiri img:hover{
+  -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
+}
+.bungkus-header .kanan{
+  color: white;
+  padding-top: 25vh;
+  text-align: center;
+}
+.bungkus-header .kanan a{
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.bungkus-header .kanan a:hover{
+  color: #fff;
+  background-color: #0c00af;
+}
+
+/* ============ Konten ========== */
+.main{
+  width: 100vw;
+  padding-top: 3vh;
+  height: 87vh;
+  background-color: whitesmoke;
+}
+
+/* ============ Main Konsul ========= */
+.wrap-konsultasi{
+  background: #fff;
+  border-radius: 5px;
+  width: 60vw;
+  height: 79vh;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  padding-top: 1vh;
+  -moz-box-shadow:    3px 3px 15px #000000;
+  -webkit-box-shadow: 3px 3px 15px #000000;
+  box-shadow:         3px 3px 15px #000000;
+}
+.konsul-gambar{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  -moz-box-shadow:    3px 3px 10px #000;
+  -webkit-box-shadow: 3px 3px 10px #000;
+  box-shadow:         3px 3px 10px #000;
+}
+.konsul-gambar img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.konsul-pertanyaan{
+  margin-top: 2vh;
+  text-align: center;
+}
+.konsul-jawaban{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 2vh;
+}
+.konsul-jawaban:hover{
+  cursor: pointer;
+}
+.konsul-nilaiCf{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.konsul-lanjut{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.tombol-active{
+  -moz-box-shadow:    4px 3px 5px #000;
+  -webkit-box-shadow: 4px 5px 5px #000;
+  box-shadow:         4px 5px 5px #000;
+}
+
+/* ============ Main Kesimpulan ========= */
+.wrap-kesimpulan{
+  background: #fff;
+  border-radius: 5px;
+  width: 60vw;
+  height: 79vh;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-top: 2vh;
+  padding-top:1.5vh ;
+  margin-bottom: 1vh;
+  -moz-box-shadow:    3px 3px 15px #000000;
+  -webkit-box-shadow: 3px 3px 15px #000000;
+  box-shadow:         3px 3px 15px #000000;
+}
+.kesimpulan-indetitas{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.kesimpulan-diagnosa{
+  background-color:#063883;
+  padding-top: 0.5vh;
+  -moz-box-shadow:    0px 4px 5px #000000;
+  -webkit-box-shadow: 0px 4px 5px #000000;
+  box-shadow:         0px 4px 5px #000000;
+}
+.wrap-diagnosa{
+  width: 20vw;
+  margin:auto;
+  background: white;
+}
+.kesimpulan-solusi{
+  height: 55vh;
+}
+.wrap-solusi{
+  overflow: scroll;
+  background: rgb(197, 196, 196);
+  height: 55vh;
+  -moz-box-shadow:    0px 4px 5px #000000;
+  -webkit-box-shadow: 0px 4px 5px #000000;
+  box-shadow:         0px 4px 5px #000000;
+}

@@ -1,0 +1,6 @@
+<section class="main">
+    <div class="container text-center">
+        <h1> Tentang Website ini</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus magni, culpa et vitae dolorem accusantium voluptatem sit, expedita hic illo est? Omnis quo beatae perferendis optio maxime officiis obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quas laboriosam eius placeat odit, id molestiae! Modi officiis quidem, blanditiis corporis, cupiditate fugit nobis veniam id, pariatur repudiandae facere in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores vero iusto officiis quas nobis? Vero iusto ullam, magnam, similique ab alias, ex officia est sint officiis rem. Eaque, illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iste accusamus eligendi, vitae provident inventore ipsum aperiam ducimus pariatur placeat enim laudantium, fugiat qui. Commodi quaerat consequatur delectus vero id?</p>
+    </div>  
+</section>
